@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 input_dir = "/Users/miilee/PycharmProjects/OrcaCallGAN/data/train_audio_files"
-output_dir = "/Users/miilee/PycharmProjects/OrcaCallGAN/data/Spectogram"
+output_dir = "/data/SpectogramTrain"
 
 for filename in os.listdir(input_dir):
     if filename.endswith(".wav"):
